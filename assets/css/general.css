@@ -1,0 +1,92 @@
+
+
+:root {
+  --white: #f8f8ff;
+  --purple: rgb(101, 13, 137);
+  --blue: rgb(2, 55, 136);
+  --pink: rgb(180, 3, 180);
+}
+
+::selection {
+  color: rgb(0, 0, 0);
+  background-color: var(--pink);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  color: rgb(255, 255, 255);
+  font-size: 60%;
+}
+
+body {
+  background-image: url(../images/body-background.jpg);
+  background-size: cover;
+  line-height: 2;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+
+
+
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-top: 5px double var(--pink);
+  text-align: center;
+  font-size: 2rem;
+}
+
+figure {
+  border: 1px solid var(--white);
+}
+
+.contact-info li,
+.contact-info li a {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about-me,
+.project,
+.contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.about-me h1,
+.project h1,
+.contact-me h2 {
+  border-right: 5px solid var(--white);
+  text-align: end;
+  padding-right: 5px;
+}
+
+.about-me-text,
+.contact-info {
+  padding: 2rem;
+}
+
+.contact-info {
+  display: inline;
+}
+

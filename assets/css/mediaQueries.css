@@ -1,0 +1,93 @@
+/* Extra small devices (phones, 320px and up) */
+@media (min-width: 320px) {
+    .profile-pic {
+		max-width: 15rem;
+	}
+	.my-name {
+		font-size: 3rem;
+		margin-top: 17rem;
+		margin-left: 1rem;
+
+	}
+	nav ul li {
+		display: block;
+	}
+	li a {
+		font-size: 2rem;
+	}
+	.about-me h1,
+    .project h1,
+    .contact-me h2 {
+        margin-left: 10px;
+    }
+}
+
+
+/* Small devices (landscape phones, 481px and up) */
+@media (min-width: 481px) {
+    .my-name {
+		font-size: 3rem;
+		margin-top: 18rem;
+		margin-left: 1rem;
+	}
+	nav ul li {
+		display: inline;
+	}
+	li a {
+		font-size: 2.5rem;
+	}
+    .about-me h1,
+    .project h1,
+    .contact-me h2 {
+      flex: 0 0 35%;
+      max-width: 35%;
+    }
+    .about-me-text {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 769px) {
+
+    .about-me h1,
+    .project h1,
+    .contact-me h2 {
+      flex: 0 0 50%;
+    }
+    .about-me-text {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+}
+
+/* Large devices (desktops, 1025px and up) */
+@media (min-width: 1025px) {
+
+    .my-name {
+        font-size: 5rem;
+        margin-top: 10rem;
+        margin-left: 20rem;
+    }
+    .about-me h1,
+    .project h1,
+    .contact-me h2 {
+      flex: 0 0 40%;
+      max-width: 40%;
+    }
+    .about-me-text {
+      flex: 0 0 50%;
+      max-width: 50%;
+      margin-top: 5rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1201px and up) */
+@media (min-width: 1201px) {
+    .my-name {
+	    font-size: 5rem;
+		margin-top: 10rem;
+		margin-left: 20rem;
+	}
+}

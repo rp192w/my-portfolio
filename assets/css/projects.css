@@ -1,0 +1,81 @@
+.project-box-full {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 50%;
+    padding: 10rem;
+}
+
+.project-box-full a {
+    text-decoration: none;
+}
+  
+.projHeader1 {
+    color: var(--white);
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+  
+.projHeader {
+    color: var(--white);
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+
+.amazon-clone,
+.autozone-clone,
+.gta6,
+.fallout5 {
+  min-height: 20rem;
+  margin: 2rem 0 1rem 1rem;
+}
+
+.youtube-clone:hover,
+.amazon-clone:hover,
+.autozone-clone:hover,
+.gta6:hover,
+.fallout5:hover {
+  box-shadow: inset 0px 0px 10px var(--pink),
+    0 0 15px rgba(232, 102, 236, 1);
+}
+
+.youtube-clone {
+  background-image: url(../images/youtube-clone.png);
+  background-size:cover;
+  min-height: 35rem;
+  min-width: 260px;
+  margin: 1rem;
+  flex: 1 0 100%;
+}
+
+.amazon-clone {
+  background-image: url(../images/amazon.png);
+  background-size:cover;
+}
+
+.autozone-clone {
+  background-image: url(../images/autozone.png);
+  background-size: cover;
+}
+
+.gta6 {
+  background-image: url(../images/gta6.jpeg);
+  background-size: cover;
+}
+
+.fallout5 {
+  background-image: url(../images/Fallout5.jpeg );
+  background-size: contain;
+}
+
+.project-box-half {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-box-half a {
+  flex: 0 0 47%;
+}
