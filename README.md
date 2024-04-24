@@ -14,3 +14,11 @@ When someone resizes the page or view the site on various screens and devices th
 Note: For my first application I followed the following youtube course to make the youtube-clone project.  
 https://www.youtube.com/watch?v=G3e-cpL7ofc  
 While the code is the same as the youtuber's, I wrote it all myself as I followed along and it did teach and reinforce what I learned in the bootcamp.
+
+## Screenshot of deployed application:  
+  
+<img src="./assets/images/screenshot.png" alt="Screenshot of my-portfolio website.png"/>
+
+## Link to deployed Application
+
+<a href="https://rp192w.github.io/my-portfolio/">https://rp192w.github.io/my-portfolio/</a>
